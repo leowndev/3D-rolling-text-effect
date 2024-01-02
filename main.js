@@ -13,12 +13,14 @@ texts.forEach(text => {
     .from(splitText.chars, {
       opacity: 0,
       y: 80,
-      rotateX: -90
+      rotateX: -90,
+      stagger: .04
     }, "<")
     // outcoming animation
     .to(splitText.chars, {
       opacity: 0,
       y: -80,
-      rotateX: 90
+      rotateX: 90,
+      stagger: .04
     }, "<1")
 })
