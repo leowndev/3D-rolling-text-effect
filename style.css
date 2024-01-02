@@ -57,6 +57,8 @@ body {
   font-size: 6rem;
   color: #ffffff;
   text-transform: uppercase;
+
+  line-height: 0; /* sit text on top of each other */
 }
 
 .text:nth-child(4) {
