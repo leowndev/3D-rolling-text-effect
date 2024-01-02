@@ -1,3 +1,4 @@
+/* vite boilerplate styles */
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -48,4 +49,16 @@ body {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* 3D text animation stuff */
+.text {
+  margin: 0;
+  font-size: 6rem;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.text:nth-child(4) {
+  color: #727bff;
 }
